@@ -1,0 +1,14 @@
+.USS_MaimMenu {
+}
+
+.vvv {
+}
+
+.vvv:hover {
+    border-left-color: rgba(0, 255, 163, 0);
+    border-right-color: rgba(0, 255, 163, 0);
+    border-top-color: rgba(0, 255, 163, 0);
+    border-bottom-color: rgba(0, 255, 163, 0);
+    background-color: rgba(236, 0, 230, 0.83);
+    scale: 4 4;
+}
