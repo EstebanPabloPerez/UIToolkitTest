@@ -1,0 +1,231 @@
+.root {
+    background-image: url('project://database/Assets/Art/Background.png?fileID=2800000&guid=a9e9fed8ffb7f2f468ac970879213743&type=3#Background');
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainRectangle {
+    background-color: rgb(17, 12, 36);
+    width: 1080px;
+    height: 908px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    border-left-color: rgb(75, 76, 116);
+    border-right-color: rgb(75, 76, 116);
+    border-top-color: rgb(75, 76, 116);
+    border-bottom-color: rgb(75, 76, 116);
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    align-items: auto;
+    justify-content: space-around;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 0;
+    padding-left: 0;
+    align-self: auto;
+}
+
+.header {
+    flex-grow: 1;
+    align-self: center;
+    margin-top: 0;
+    padding-top: 30px;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    flex-wrap: nowrap;
+    height: 137px;
+}
+
+.title {
+    flex-direction: row;
+    align-self: center;
+    align-items: center;
+    width: 998px;
+    justify-content: flex-start;
+    height: 43px;
+}
+
+.titleText {
+    -unity-font: url('project://database/Assets/Assets/Font/Lato-Black.ttf?fileID=12800000&guid=ce8b16e804c2dbd4ba1a3d436f7b1987&type=3#Lato-Black');
+    color: rgb(120, 123, 176);
+    font-size: 36px;
+    -unity-font-definition: initial;
+    height: 38px;
+    -unity-text-align: middle-center;
+    width: 148px;
+    align-items: auto;
+    justify-content: flex-start;
+    align-self: center;
+}
+
+.titleLogo {
+    background-image: url('project://database/Assets/Art/Sprites/MiniLogo.png?fileID=2800000&guid=18b58371a58c33b45959976049d19d16&type=3#MiniLogo');
+    width: 46.25px;
+    height: 32px;
+}
+
+.titleLineBar {
+    flex-grow: 1;
+    background-image: url('project://database/Assets/Art/Sprites/Lines.png?fileID=2800000&guid=91a6606473874c842b242a82cfea4041&type=3#Lines');
+    height: 32px;
+    width: 714px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.titleCrossButton {
+    width: 16.97px;
+    height: 16.97px;
+    background-image: url('project://database/Assets/Art/Sprites/Cross.png?fileID=2800000&guid=6964d420b1006d24793e8080ebb959c5&type=3#Cross');
+    background-color: rgba(0, 0, 0, 0);
+    color: rgba(27, 27, 27, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+}
+
+.body {
+    align-items: auto;
+    justify-content: flex-start;
+    align-self: auto;
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+    padding-right: 32px;
+    padding-left: 32px;
+    padding-top: 0;
+    height: 1200px;
+}
+
+.bodyLayer {
+    flex-grow: 1;
+    flex-direction: row;
+    height: 33px;
+    width: 413px;
+    margin-left: 60px;
+    justify-content: space-between;
+    align-items: auto;
+    align-self: flex-start;
+    margin-top: -18px;
+}
+
+.bodyLayerButton {
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(242, 131, 218);
+    -unity-font: url('project://database/Assets/Assets/Font/Lato-Black.ttf?fileID=12800000&guid=ce8b16e804c2dbd4ba1a3d436f7b1987&type=3#Lato-Black');
+    font-size: 18px;
+    -unity-font-definition: initial;
+    height: 33px;
+    align-items: auto;
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+}
+
+.bodySlider {
+    flex-grow: 1;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    width: 100%;
+    height: 499px;
+    margin-right: 0;
+    padding-right: 0;
+    padding-left: 0;
+    padding-top: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.bodySliderButton {
+    background-image: url('project://database/Assets/Art/Sprites/Arrow.png?fileID=2800000&guid=be3702db5b02e3a428e4219f10648aed&type=3#Arrow');
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    color: rgba(27, 27, 27, 0);
+    width: 16px;
+    height: 30px;
+    align-items: center;
+    align-self: center;
+    justify-content: flex-start;
+}
+
+.bodySliderLines {
+    background-image: url('project://database/Assets/Art/Sprites/SliderLines.png?fileID=2800000&guid=964397f96f42d5d44af2eaaebe0e46ce&type=3#SliderLines');
+    width: 229px;
+    height: 8px;
+    align-items: auto;
+    align-self: center;
+    justify-content: center;
+    margin-top: 16px;
+    top: -18px;
+}
+
+.footer {
+    height: 250px;
+    flex-direction: row;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.Lines {
+    background-image: url('project://database/Assets/Art/Sprites/CornerLines.png?fileID=2800000&guid=3a1b5b1a2c69e314f97ba623e4e55241&type=3#CornerLines');
+    width: 97%;
+    height: 97%;
+    position: absolute;
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerCopyRight {
+    -unity-font: url('project://database/Assets/Assets/Font/Syke-Regular.ttf?fileID=12800000&guid=5241d5e0ab8ea844da7996a43d515157&type=3#Syke-Regular');
+    -unity-font-definition: initial;
+    color: rgb(75, 76, 116);
+    -unity-text-align: upper-right;
+    font-size: 8px;
+    width: 108px;
+    height: 10px;
+}
+
+.ButtomBarLines {
+    background-image: url('project://database/Assets/Art/Sprites/ButtonLines.png?fileID=2800000&guid=469129f8afe6b5647b6d042b752c45df&type=3#ButtonLines');
+    width: 137px;
+    height: 48px;
+    align-items: stretch;
+    justify-content: flex-end;
+    align-self: center;
+    margin-top: 69px;
+}
+
+.bodyLayerButton:hover {
+    color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    border-bottom-width: 4px;
+    border-top-color: rgba(255, 255, 255, 0);
+    border-right-color: rgba(255, 255, 255, 0);
+    border-left-color: rgba(255, 255, 255, 0);
+    -unity-font: url('project://database/Assets/Assets/Font/Lato-Black.ttf?fileID=12800000&guid=ce8b16e804c2dbd4ba1a3d436f7b1987&type=3#Lato-Black');
+    -unity-font-definition: initial;
+    background-color: rgba(0, 0, 0, 0);
+    transition-property: color;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-circ;
+}

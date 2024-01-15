@@ -1,0 +1,37 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Scripts/Esteban/EventStyle.uss?fileID=7433441132597879392&amp;guid=a6c0b3182bff10c4e8e6abf72abe4282&amp;type=3#EventStyle" />
+    <ui:VisualElement name="Root" class="root">
+        <ui:VisualElement name="Rectangle" class="mainRectangle" style="justify-content: center;">
+            <ui:VisualElement name="Lines" class="Lines" />
+            <ui:VisualElement name="Header" class="header">
+                <ui:VisualElement name="Title" class="title">
+                    <ui:VisualElement name="Logo" class="titleLogo" />
+                    <ui:Label tabindex="-1" text="EVENTS" parse-escape-sequences="true" display-tooltip-when-elided="true" name="TitleText" class="titleText" />
+                    <ui:VisualElement name="LineBar" class="titleLineBar" />
+                    <ui:Button text="Button" parse-escape-sequences="true" display-tooltip-when-elided="true" name="CrossButton" class="titleCrossButton" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="Body" class="body">
+                <ui:VisualElement name="Layers" class="bodyLayer">
+                    <ui:Button text="GOAL" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Button1" class="bodyLayerButton" />
+                    <ui:Button text="OBSTACLES" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Button2" class="bodyLayerButton" />
+                    <ui:Button text="CONTROLS" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Button3" class="bodyLayerButton" />
+                </ui:VisualElement>
+                <ui:VisualElement name="Slider" class="bodySlider">
+                    <ui:Button text="Button" parse-escape-sequences="true" display-tooltip-when-elided="true" class="bodySliderButton" />
+                    <ui:VisualElement name="Image" style="background-image: url(&apos;project://database/Assets/Art/Sprites/Slider.png?fileID=2800000&amp;guid=ae36b315128eddb478c47c4075c19f63&amp;type=3#Slider&apos;); width: 887px; height: 499px; margin-right: 33px; margin-left: 33px;" />
+                    <ui:Button text="Button" parse-escape-sequences="true" display-tooltip-when-elided="true" class="bodySliderButton" style="rotate: 180deg;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="LineBars" class="bodySliderLines" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Footer" class="footer">
+                <ui:Label tabindex="-1" text="01001000 01101001 01110100 00100000 01110100 01101000 01100101 00100000 01110011 01100001 01100011 01101011 00101100 00100000 01001010 01100001 01100011 01101011 00100001 00100000 01011001 01101111 01110101 00100000 01101000 01100001 01110110 " parse-escape-sequences="true" display-tooltip-when-elided="true" name="Number" class="footerCopyRight" style="flex-wrap: wrap; text-overflow: ellipsis; white-space: normal; -unity-text-align: middle-center; width: 330px; left: -427px; top: 87px;" />
+                <ui:VisualElement name="CopyRight" style="left: 142px; top: 30px;">
+                    <ui:Label tabindex="-1" text="WINNERS-001" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Text1" class="footerCopyRight" />
+                    <ui:Label tabindex="-1" text="PROPERTY OF SUGARCOP" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Text2" class="footerCopyRight" />
+                </ui:VisualElement>
+                <ui:VisualElement name="BarLine" class="ButtomBarLines" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
